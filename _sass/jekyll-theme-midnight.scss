@@ -211,14 +211,12 @@ dt {
         }
 
         &.fork {
-          border: 0;
-          outline: none;
           margin: 0 0 50px 0;
           h1 {
             font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
             font-weight: normal;
             font-size: 40px;
-            text-align: center;
+            float: left;
             line-height: 36px;
           }
 
@@ -227,7 +225,7 @@ dt {
             font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
             font-weight: normal;
             font-size: 18px;
-            text-align: center;
+            float: right;
           }
         }
 
